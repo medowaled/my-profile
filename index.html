@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Developer & Agency Lead | Cyber-Professional Portfolio</title>
+    <meta name="description"
+        content="Senior Full-Stack Developer and Agency Lead with 5+ years of experience in bespoke web solutions. Expertise in framework-free, high-performance coding.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="mouse-glow"></div>
+    <div id="grain-overlay"></div>
+
+    <nav class="glass"
+        style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 1200px; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; z-index: 1000;">
+        <div class="logo outfit" style="font-weight: 800; font-size: 1.5rem; letter-spacing: 2px;">Ahmed Walid<span
+                style="color: var(--accent-neon);">.</span></div>
+        <div class="nav-links" style="display: flex; gap: 30px;">
+            <a href="#hero" style="color: #fff; text-decoration: none; font-size: 0.9rem; font-weight: 500;"> HOME</a>
+            <a href="#about" style="color: #fff; text-decoration: none; font-size: 0.9rem; font-weight: 500;"> ABOUT</a>
+            <a href="#tech" style="color: #fff; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                SYSTEMS</a>
+            <a href="#showroom" style="color: #fff; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                PARTNERS</a>
+            <a href="#contact" style="color: #fff; text-decoration: none; font-size: 0.9rem; font-weight: 500;">
+                CONTACT</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <div class="profile-container reveal" style="animation-delay: 0.1s;">
+                <img src="ahmed_profile.jpg" alt="Ahmed Walid" class="profile-img">
+            </div>
+            <span class="section-tag reveal" style="animation-delay: 0.2s;">Ahmed Walid (أحمد وليد)</span>
+            <h1 class="hero-title reveal" style="animation-delay: 0.4s;">Ahmed Walid: Web Expert - <br> 5+ Years of
+                Experience</h1>
+            <p class="hero-subtitle reveal" style="animation-delay: 0.6s;">Senior Full-Stack Engineer crafting
+                high-performance, bespoke digital platforms from the ground up. Lead Developer behind innovative
+                solutions.</p>
+            <div class="reveal" style="animation-delay: 0.8s;">
+                <button class="neon-btn">Explore Expertise</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="mono">const about = {</span>
+                    <h2 class="section-title" style="margin-bottom: 20px;">The Architect Behind the Systems</h2>
+                    <p class="about-bio">I don't just build websites; I engineer robust digital ecosystems. With 5+
+                        years of full-stack expertise, I focus on scalability, security, and raw performance.</p>
+                    <p class="about-bio">Every project is an opportunity to solve complex architectural challenges using
+                        bespoke code. I take full ownership as the <strong>Lead System Architect</strong> from initial
+                        schema design to high-load deployment.</p>
+                    <div class="lead-developer-badge mono">Lead_System_Architect.exe</div>
+                </div>
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <pre><code style="color: #abb2bf;"><span style="color: #c678dd;">class</span> <span style="color: #e5c07b;">FullStackEngineer</span> {
+  <span style="color: #c678dd;">constructor</span>() {
+    <span style="color: #e06c75;">this</span>.name = <span style="color: #98c379;">"Ahmed Walid"</span>;
+    <span style="color: #e06c75;">this</span>.role = <span style="color: #98c379;">"Lead Architect"</span>;
+    <span style="color: #e06c75;">this</span>.focus = [<span style="color: #98c379;">"Performance"</span>, <span style="color: #98c379;">"Scale"</span>];
+  }
+  
+  <span style="color: #61afef;">optimize</span>(platform) {
+    <span style="color: #c678dd;">return</span> <span style="color: #e06c75;">this</span>.engineer(platform);
+  }
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showroom">
+        <div class="container">
+            <div class="section-header">
+                <span class="mono">partner_network</span>
+                <h2 class="section-title">Partners Showroom</h2>
+            </div>
+            <div class="client-grid">
+                <a href="https://www.mostafa-khalil.com/" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.23.40 PM.jpeg" alt="mr mostafa-khalil"
+                        class="client-logo">
+                    <div class="mono brand-label">mr mostafa khalil </div>
+                </a>
+                <a href="https://lisbon-club.com" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.26.23 PM.jpeg" alt="Lox Steel" class="client-logo">
+                    <div class="mono brand-label">Lisbon club</div>
+                </a>
+                <a href="https://medowaled.github.io/moca/" target="_blank" class="client-card glass">
+                    <img src="616017073_122093963931225091_5633531147748933407_n.jpg" alt="Moca Cafe"
+                        class="client-logo">
+                    <div class="mono brand-label">MOCA CAFE</div>
+                </a>
+                <a href="https://nouryan-travel.com/" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.30.19 PM.jpeg" alt="TechFlow" class="client-logo">
+                    <div class="mono brand-label">nouryan </div>
+                </a>
+                <a href="https://medowaled.github.io/Cafe-main/" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.32.24 PM.jpeg" alt="Partner 5" class="client-logo">
+                    <div class="mono brand-label">AntiQa cafe</div>
+                </a>
+                <a href="https://medowaled.github.io/zay_shop-main/" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.34.33 PM.jpeg" alt="Partner 6" class="client-logo">
+                    <div class="mono brand-label">zay_shop</div>
+                </a>
+                <a href="https://medowaled.github.io/Medic-Care-main/" target="_blank" class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.36.11 PM.jpeg" alt="Partner 7" class="client-logo">
+                    <div class="mono brand-label">Medic Care</div>
+                </a>
+                <a href="https://medowaled.github.io/Restaurant-main/" target="_blank   " class="client-card glass">
+                    <img src="WhatsApp Image 2026-05-14 at 11.38.36 PM.jpeg" alt="Partner 8" class="client-logo">
+                    <div class="mono brand-label">Restaurant</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Core</span>
+                <h2 class="section-title">Bespoke Tech Stack</h2>
+            </div>
+            <div class="tech-container">
+                <div class="tech-item glass">
+                    <span class="tech-name">React.js & Next.js</span>
+                    <p class="tech-desc">Building SEO-optimized, lightning-fast SSR and static applications with React
+                        and Next.js.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">TypeScript</span>
+                    <p class="tech-desc">Leveraging static typing for robust, error-free, and maintainable
+                        enterprise-level codebases.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">Node.js & Express</span>
+                    <p class="tech-desc">Architecting high-concurrency, scalable backend systems and REST/GraphQL APIs.
+                    </p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">Advanced HTML5/CSS3 (Sass)</span>
+                    <p class="tech-desc">Semantic structures and complex styling systems using Sass for maintainable,
+                        scalable UI.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">Firebase Suite</span>
+                    <p class="tech-desc">Expert integration of Auth, Firestore, and Hosting for serverless, real-time
+                        enterprise applications.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">API Development</span>
+                    <p class="tech-desc">Designing and implementing secure, efficient RESTful and real-time APIs for
+                        seamless data flow.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">Performance Optimization</span>
+                    <p class="tech-desc">Deep-level audits and optimizations to achieve perfect lighthouse scores and
+                        instant load times.</p>
+                </div>
+                <div class="tech-item glass">
+                    <span class="tech-name">Tailwind CSS</span>
+                    <p class="tech-desc">Rapidly building modern, utility-first interfaces with precision and
+                        performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Client Feedback</span>
+
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <!-- Slide 1 -->
+                    <div class="glass testimonial-card" dir="rtl">
+                        <i class="fa-solid fa-quote-left"
+                            style="color: var(--accent-neon); font-size: 1.5rem; margin-bottom: 15px; display: block;"></i>
+                        <p
+                            style="font-style: italic; margin-bottom: 20px; color: var(--text-secondary); font-size: 0.95rem;">
+                            "أنا سعيد جداً بالتعامل مع أحمد، الشغل احترافي والمنصة ممتازة وسريعة جداً. الاهتمام
+                            بالتفاصيل مذهل فعلاً."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-neon);">
+                            </div>
+                            <div>
+                                <h4 class="outfit" style="font-size: 0.9rem;">مستر مصطفى خليل</h4>
+                                <span style="font-size: 0.75rem; color: var(--text-secondary);">مدير تنفيذي</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="glass testimonial-card" dir="rtl">
+                        <i class="fa-solid fa-quote-left"
+                            style="color: var(--accent-neon); font-size: 1.5rem; margin-bottom: 15px; display: block;"></i>
+                        <p
+                            style="font-style: italic; margin-bottom: 20px; color: var(--text-secondary); font-size: 0.95rem;">
+                            "كل الشكر للمهندس أحمد على المجهود الرائع. الشغل تم بجودة عالية وفي وقت قياسي. أنصح بشدة
+                            بالتعامل معه لأي مشروع تقني معقد."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 40px; height: 40px; border-radius: 50%; background: #444;"></div>
+                            <div>
+                                <h4 class="outfit" style="font-size: 0.9rem;">دكتور محمد عبدالغني</h4>
+                                <span style="font-size: 0.75rem; color: var(--text-secondary);">رئيس مجلس إدارة شركة
+                                    نوريان للسياحه </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="glass testimonial-card" dir="rtl">
+                        <i class="fa-solid fa-quote-left"
+                            style="color: var(--accent-neon); font-size: 1.5rem; margin-bottom: 15px; display: block;"></i>
+                        <p
+                            style="font-style: italic; margin-bottom: 20px; color: var(--text-secondary); font-size: 0.95rem;">
+                            "الاحترافية والالتزام هما عنوان العمل مع أحمد. المنصة التي قام ببنائها من الصفر تجاوزت كل
+                            توقعاتنا من حيث الأداء والسرعة."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 40px; height: 40px; border-radius: 50%; background: #2e5bff;"></div>
+                            <div>
+                                <h4 class="outfit" style="font-size: 0.9rem;">أستاذ أحمد علي</h4>
+                                <span style="font-size: 0.75rem; color: var(--text-secondary);">مدير تقني</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for seamless loop -->
+                    <div class="glass testimonial-card" dir="rtl">
+                        <i class="fa-solid fa-quote-left"
+                            style="color: var(--accent-neon); font-size: 1.5rem; margin-bottom: 15px; display: block;"></i>
+                        <p
+                            style="font-style: italic; margin-bottom: 20px; color: var(--text-secondary); font-size: 0.95rem;">
+                            "أنا سعيد جداً بالتعامل مع أحمد، الشغل احترافي والمنصة ممتازة وسريعة جداً. الاهتمام
+                            بالتفاصيل مذهل فعلاً."</p>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-neon);">
+                            </div>
+                            <div>
+                                <h4 class="outfit" style="font-size: 0.9rem;">مستر مصطفى خليل</h4>
+                                <span style="font-size: 0.75rem; color: var(--text-secondary);">مدير تنفيذي</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="engineering" class="agency-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="mono">system_modules</span>
+                <h2 class="section-title">Core Engineering Modules</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+                <div class="service-card glass">
+                    <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3 class="outfit" style="margin-bottom: 15px;">Backend Architecture</h3>
+                    <p style="color: var(--text-secondary);">Designing scalable databases and serverless logic using
+                        Firebase and custom API structures for high-load systems.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3 class="outfit" style="margin-bottom: 15px;">Frontend Systems</h3>
+                    <p style="color: var(--text-secondary);">Developing complex, low-latency user interfaces with pure
+                        JavaScript and optimized styling systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="agency-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="mono">initiate_connection</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-card glass"
+                style="max-width: 600px; margin: 0 auto; padding: 40px; text-align: center; border-radius: 20px;">
+                <p style="color: var(--text-secondary); margin-bottom: 30px; font-size: 1.1rem;">Ready to build
+                    something extraordinary? Let's discuss your next project.</p>
+
+                <div class="contact-numbers"
+                    style="font-size: 1.5rem; font-weight: 600; margin-bottom: 30px; color: #fff; display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
+                    <a href="tel:01099444012"
+                        style="color: inherit; text-decoration: none; transition: color 0.3s ease;"
+                        onmouseover="this.style.color='var(--accent-neon)'" onmouseout="this.style.color='inherit'"><i
+                            class="fa-solid fa-phone"
+                            style="font-size: 1.2rem; margin-right: 8px; color: var(--accent-neon);"></i>01099444012</a>
+                    <span style="color: var(--text-secondary);">/</span>
+                    <a href="tel:01202021982"
+                        style="color: inherit; text-decoration: none; transition: color 0.3s ease;"
+                        onmouseover="this.style.color='var(--accent-neon)'" onmouseout="this.style.color='inherit'"><i
+                            class="fa-solid fa-phone"
+                            style="font-size: 1.2rem; margin-right: 8px; color: var(--accent-neon);"></i>01202021982</a>
+                </div>
+
+                <div class="social-icons" style="display: flex; justify-content: center; gap: 20px;">
+                    <a href="https://wa.me/201099444012" target="_blank" class="social-icon"
+                        style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: #fff; font-size: 1.8rem; transition: all 0.3s ease; text-decoration: none; border: 1px solid rgba(255,255,255,0.1);"
+                        onmouseover="this.style.background='var(--accent-neon)'; this.style.color='#000'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.2)'"
+                        onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#fff'; this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="tel:01099444012" class="social-icon"
+                        style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: #fff; font-size: 1.8rem; transition: all 0.3s ease; text-decoration: none; border: 1px solid rgba(255,255,255,0.1);"
+                        onmouseover="this.style.background='var(--accent-neon)'; this.style.color='#000'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.2)'"
+                        onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#fff'; this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ahmed.w.abo.elnaga?locale=ar_AR" target="_blank"
+                        class="social-icon"
+                        style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: #fff; font-size: 1.8rem; transition: all 0.3s ease; text-decoration: none; border: 1px solid rgba(255,255,255,0.1);"
+                        onmouseover="this.style.background='var(--accent-neon)'; this.style.color='#000'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.2)'"
+                        onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#fff'; this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="glass" style="padding: 50px 5%; margin-top: 50px; text-align: center;">
+        <div class="logo outfit" style="font-weight: 800; font-size: 2rem; letter-spacing: 4px; margin-bottom: 20px;">
+            Ahmed Walid<span style="color: var(--accent-neon);">.</span></div>
+        <p style="color: var(--text-secondary);">&copy; 2020Ahmed Walid | Senior Full-Stack Engineer & Lead Developer.
+            All rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
